@@ -10,7 +10,8 @@ class ModuleViewComposer
 {
     public function compose($view)
     {
-        $modules = auth()->user()->modules()->pluck('value')->toArray();
+        $modules = auth()->user()->modules->pluck('value')->toArray();
+
         /*
         $systemConfig = Configuration::select('use_login_global')->first();
         */

@@ -900,4 +900,6 @@ Route::post('purchase-settlements', 'Tenant\PurchaseSettlementController@store')
 
         });
     });
+    
+    
 }
